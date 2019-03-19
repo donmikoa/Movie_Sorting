@@ -13,7 +13,7 @@ moviesDict = {2005: [['Munich', 'Steven Spielberg']],
               2015: [['Spotlight', 'Tom McCarthy']],
               2016: [['The BFG', 'Steven Spielberg']]}
 year = int(input("Enter a year between 2005 and 2016:\n"))
-if(year<2005 or year>2016):
+if year < 2005 or year > 2016:
     print("N/A")
 else:
     movies = moviesDict[year]
