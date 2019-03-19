@@ -16,7 +16,7 @@ year = int(input("Enter a year between 2005 and 2016:\n"))
 if(year<2005 or year>2016):
     print("N/A")
 else:
-
+    movies = moviesDict[year]
 
 
 
