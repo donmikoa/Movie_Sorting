@@ -29,7 +29,7 @@ while var==1:
     print("t - Movie title")
     print("q - Quit")
     print("")
-    option = input("Choose an option:\n"
+    option = input("Choose an option:\n")
 
 
 
