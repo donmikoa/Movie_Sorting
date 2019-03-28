@@ -28,6 +28,8 @@ while var==1:
     print("d - Director")
     print("t - Movie title")
     print("q - Quit")
+    print("")
+    option = input("Choose an option:\n"
 
 
 
