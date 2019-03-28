@@ -17,6 +17,9 @@ if year < 2005 or year > 2016:
     print("N/A")
 else:
     movies = moviesDict[year]
+    for movie in movies:
+        print(movie[0] + ", " + movie[1])
+
 
 
 
