@@ -21,7 +21,7 @@ else:
         print(movie[0] + ", " + movie[1])
 var = 1
 print("")
-while var==1:
+while var == 1:
     print("MENU")
     print("Sort by:")
     print("y - Year")
@@ -30,7 +30,7 @@ while var==1:
     print("q - Quit")
     print("")
     option = input("Choose an option:\n")
-    if (option == 'y'):
+    if option == 'y':
         for key in sorted(moviesDict.keys()):
             print(key, end=':')
 
