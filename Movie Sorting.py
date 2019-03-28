@@ -30,6 +30,9 @@ while var==1:
     print("q - Quit")
     print("")
     option = input("Choose an option:\n")
+    if (option == 'y'):
+        for key in sorted(moviesDict.keys()):
+            print(key, end=':')
 
 
 
