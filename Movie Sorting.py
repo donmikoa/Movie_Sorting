@@ -19,6 +19,15 @@ else:
     movies = moviesDict[year]
     for movie in movies:
         print(movie[0] + ", " + movie[1])
+var = 1
+print("")
+while var==1:
+    print("MENU")
+    print("Sort by:")
+    print("y - Year")
+    print("d - Director")
+    print("t - Movie title")
+    print("q - Quit")
 
 
 
