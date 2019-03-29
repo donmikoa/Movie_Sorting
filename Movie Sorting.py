@@ -42,6 +42,10 @@ while var == 1:
         for key in sorted(moviesDict.keys()):
             for movie in moviesDict[key]:
                 dire = movie[1]
+                if dire in dirDict:
+                    dirDict[dire].append([movie[0], key])
+                else:
+                    dirDict[dire] = [[movie[0], key]]
 
 
 
