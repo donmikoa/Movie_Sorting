@@ -37,7 +37,11 @@ while var == 1:
             for movie in moviesDict[key]:
                 print("\t" + movie[0] + ", " + movie[1])
             print("")
-
+    elif option == 'd':
+        dirDict = {}
+        for key in sorted(moviesDict.keys()):
+            for movie in moviesDict[key]:
+                dire = movie[1]
 
 
 
