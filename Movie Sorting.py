@@ -33,6 +33,11 @@ while var == 1:
     if option == 'y':
         for key in sorted(moviesDict.keys()):
             print(key, end=':')
+            print("")
+            for movie in moviesDict[key]:
+                print("\t" + movie[0] + ", " + movie[1])
+            print("")
+
 
 
 
