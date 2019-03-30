@@ -46,6 +46,13 @@ while var == 1:
                     dirDict[dire].append([movie[0], key])
                 else:
                     dirDict[dire] = [[movie[0], key]]
+        for key in sorted(dirDict.keys()):
+            print(key, end=':')
+            print("")
+            for dire in dirDict[key]:
+                print("\t" + str(dire[0]) + ", " + str(dire[1]))
+            print("")
+
 
 
 
