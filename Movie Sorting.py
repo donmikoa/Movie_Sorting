@@ -21,6 +21,7 @@ else:
         print(movie[0] + ", " + movie[1])
 var = 1
 print("")
+
 while var == 1:
     print("MENU")
     print("Sort by:")
