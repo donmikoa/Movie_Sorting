@@ -52,6 +52,16 @@ while var == 1:
             for dire in dirDict[key]:
                 print("\t" + str(dire[0]) + ", " + str(dire[1]))
             print("")
+    elif (option == 't'):
+        titleDict = {}
+        for key in sorted(moviesDict.keys()):
+            for movie in moviesDict[key]:
+                title = movie[0]
+                if title in titleDict:
+                    titleDict[title].append([movie[1], key])
+                else:
+                    titleDict[title] = [[movie[1], key]]
+
 
 
 
