@@ -62,6 +62,11 @@ while var == 1:
                     titleDict[title].append([movie[1], key])
                 else:
                     titleDict[title] = [[movie[1], key]]
+        for key in sorted(titleDict.keys()):
+            print(key, end=':')
+            print("")
+            for title in titleDict[key]:
+
 
 
 
