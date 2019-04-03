@@ -68,10 +68,10 @@ while var == 1:
             for title in titleDict[key]:
                 print("\t" + str(title[0]) + ", " + str(title[1]))
                 print("")
-            elif option == 'q':
-            break;
-        else:
-            print("Invalid option")
+    elif option == 'q':
+        break;
+    else:
+        print("Invalid option")
 
 
 
