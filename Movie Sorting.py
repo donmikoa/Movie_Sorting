@@ -66,6 +66,13 @@ while var == 1:
             print(key, end=':')
             print("")
             for title in titleDict[key]:
+                print("\t" + str(title[0]) + ", " + str(title[1]))
+                print("")
+            elif (option == 'q':
+            break;
+        else:
+            print("Invalid option")
+
 
 
 
