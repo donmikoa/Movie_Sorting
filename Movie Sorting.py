@@ -69,9 +69,9 @@ while var == 1:
                 print("\t" + str(title[0]) + ", " + str(title[1]))
                 print("")
     elif option == 'q':
-        break;
+        break
     else:
-        print("Invalid option")
+        print ("Invalid option")
 
 
 
